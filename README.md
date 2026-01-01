@@ -99,8 +99,3 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları takip 
 4.  Branch'inizi Pushlayın (`git push origin ozellik/YeniOzellik`).
 5.  Bir Pull Request (PR) açın.
 
----
-
-## 📝 Lisans
-
-Bu proje [MIT](LICENSE) lisansı ile lisanslanmıştır.
