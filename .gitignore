@@ -1,0 +1,108 @@
+# ------------------------------------------------------------------------------------------------------
+# .NET & Visual Studio Core Ignores
+# ------------------------------------------------------------------------------------------------------
+## Build results
+[Bb]in/
+[Oo]bj/
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.launchSettings.json
+!Properties/launchSettings.json
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+## Test results
+TestResult.xml
+*.VisualState.xml
+
+# ------------------------------------------------------------------------------------------------------
+# Node.js & React/Vite Ignores
+# ------------------------------------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+## Build Output
+dist/
+dist-ssr/
+build/
+out/
+.output/
+
+## Environment Variables (Security Critical)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+
+## Dependency Directories
+jspm_packages/
+typings/
+
+## Coverage Directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# ------------------------------------------------------------------------------------------------------
+# OS & Generic File Ignores
+# ------------------------------------------------------------------------------------------------------
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trashes
+
+## Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ------------------------------------------------------------------------------------------------------
+# Editor & IDE Specifics
+# ------------------------------------------------------------------------------------------------------
+## JetBrains (Rider, WebStorm)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+## Visual Studio Code
+.history/
+*.code-workspace
+
+# ------------------------------------------------------------------------------------------------------
+# Miscellaneous
+# ------------------------------------------------------------------------------------------------------
+*.log
+*.bak
+*.tmp
+*.swp
+project.lock.json
+package-lock.json (Opsiyonel: Takım standartlarına göre bu satır silinebilir, genelde versiyon sabitlemek için commitlenmesi önerilir)
